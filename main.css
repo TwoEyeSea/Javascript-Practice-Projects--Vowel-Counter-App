@@ -1,1 +1,55 @@
+html{
+    font-size: 62.5%;
+    background: lightblue;
+}
 
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.title{
+    color: rgb(242, 214, 28);
+    text-shadow: -2px 1px rgba(169, 58, 169, 0.648);
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.checker_input{
+    outline: none;
+    border: 3px solid gold;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.checker_input:hover{
+    transform: scale(1.2);
+    
+}
+
+.checker_input:focus{
+    transform: scale(1.2);
+}
+
+.check_button{
+    border-radius: 3px;
+    border: 2px solid white;
+    color: #fff;
+    background-color: rgb(242, 214, 28) ;   
+    transition: 0.4s; 
+    margin-left: 2rem;
+}
+.check_button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    transform: scale(1.2);
+}
