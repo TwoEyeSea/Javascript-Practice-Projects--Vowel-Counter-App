@@ -18,7 +18,7 @@ body{
 
 .title{
     color: rgb(242, 214, 28);
-    text-shadow: -2px 1px rgba(169, 58, 169, 0.648);
+    text-shadow: -4px 1px rgba(169, 58, 169, 0.648);
     font-size: 4rem;
     font-weight: bold;
     text-decoration: underline;
