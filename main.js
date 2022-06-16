@@ -12,6 +12,7 @@ appForm.addEventListener("submit", (e) => {
   e.preventDefault();
   if (!inputString) {
     alert("Please enter a string to check.");
+    return;
   }
 
   alert(`There are ${vowelCheck(array)} vowels in the string "${inputString}"`);
